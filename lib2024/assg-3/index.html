@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<!--this is the head content-->
+<head>
+	<title>Internet Applications Assignment 3</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="HTML, HTML5, Tags, Basic HTML, Standard Tags">
+	<meta name="description"  content="School assignment">
+	<meta name="author"  content="Sharon Zvonar">
+	<meta name="robots"  content="index, follow">
+</head>
+<!--this is the body content-->
+<body>
+	<!--this is the first heading-->
+	     <h1>Assignment 3 HTML Form</h1>
+	<div id="wrapper" class="wrapper">
+		<section id="html-forms" class="main-section">
+			<form action="somepage.php" method="get">
+				<!--first name input in text, required-->
+				<div id="fn-container" class="form-elm">
+					<label for="FirstName">First name</label>
+					<input type="text" name="FirstName" id="FirstName" placeholder="First name goes here">
+				</div>
+				<!--last name input in text, required-->
+				<div id="ln-container" class="form-elm">
+					<label for="LastName">Last Name</label>
+					<input type="text" name="LastName" id="LastName" placeholder="Enter your Last Name here">
+				</div>
+				<!--email input in text, required-->
+				<div id="email-container" class="form-elm">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" value="example@g.com" readonly>
+				</div>
+				<!--password input in text, required-->
+				<div id="pass-container" class="form-elm">
+					<label for="pass">Password</label>
+					<input type="password" name="pass" id="pass" required>
+				</div>
+				<!--textarea, introduction-->
+				<div id="sum-container" class="form-elm">
+					<label for="summary">Summary</label>
+					<!-- A textarea lets you submit information that is more than one line -->
+					<!-- The information submitted will correspond in the server -->
+					<!-- Textarea preserves line breaks while submitting to the server -->
+					<textarea name="summary" id="summary" placeholder="Enter summary here">
+						This is the value of text area
+					</textarea>
+				</div>
+
+
+
+
+
+
+
