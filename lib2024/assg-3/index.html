@@ -19,17 +19,17 @@
 				<!--first name input in text, required-->
 				<div id="fn-container" class="form-elm">
 					<label for="FirstName">First name</label>
-					<input type="text" name="FirstName" id="FirstName" placeholder="First name goes here">
+					<input type="text" name="FirstName" id="FirstName" placeholder="First name goes here" required>
 				</div>
 				<!--last name input in text, required-->
 				<div id="ln-container" class="form-elm">
 					<label for="LastName">Last Name</label>
-					<input type="text" name="LastName" id="LastName" placeholder="Last name goes here">
+					<input type="text" name="LastName" id="LastName" placeholder="Last name goes here" required>
 				</div>
 				<!--email input in text, required-->
 				<div id="email-container" class="form-elm">
 					<label for="email">Email</label>
-					<input type="email" name="email" id="email" value="example@g.com" readonly>
+					<input type="email" name="email" id="email" value="example@g.com" readonly required>
 				</div>
 				<!--password input in text, required-->
 				<div id="pass-container" class="form-elm">
@@ -49,6 +49,21 @@
 					<!--mobile section-->
 					<label for="phone">Mobile number:</label>
 					<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+				<!--gender choices-->
+				<div id="radio-container" class="form-elm">
+					<label for="female">
+						<input type="radio" name="female" id="female" value="female" checked>
+						Female
+					</label>
+					<label for="male">
+						<input type="radio" name="male" id="male" value="male">
+						Male
+					</label>
+					<label for="other">
+						<input type="radio" name="other" id="other" value="other">
+						Other
+					</label>
+				</div>
 
 
 				
