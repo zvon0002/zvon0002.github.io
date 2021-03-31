@@ -46,5 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/s*CSS clearfix*/
 
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 img{width:100%;}
