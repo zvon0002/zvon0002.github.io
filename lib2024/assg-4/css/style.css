@@ -79,6 +79,12 @@ header{
 .desktop-nav li{
 box-sizing: border-box;;
 width: 25%;
-float: ;
+float: middle;
 background: #6dcff6;
+}
+.main-nav a{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
 }
