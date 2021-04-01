@@ -63,9 +63,7 @@ img {
 	}
 
 	/*Header styles*/
-.h1{
-	background: #7cc576;
-}
+
 .logo{
 	float: left;
 	width: 100px;
@@ -76,6 +74,7 @@ img {
 .h1{
 	text-align: center;
 	color: 000000;
+	background: #7cc576;
 }
 .desktop-nav {
 		display: block;
