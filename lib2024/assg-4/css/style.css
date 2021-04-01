@@ -61,35 +61,9 @@ img {
 		max-width: 1280px;
 		margin: 0 auto;
 	}
-	.desktop-nav {
-		display: block;
-	}
-	.mobile-nav {
-		display: none;
-	}
-	.ham {
-		display: none;
-	}
-	.site-content {
-		float: left;
-		width: 60%;
-		box-sizing: border-box;
-	}
-	.site-sidebar {
-		float: right;
-		width: 40%;
-		box-sizing: border-box;
-	}
-	.image-gallery.img-slide {
-		width: 33%;
-		padding: 10px;
-		box-sizing: border-box;
-		float: center;
-		color: ;
-	}
-}
-/*Header styles*/
-/*header{
+
+	/*Header styles*/
+.header{
 	background: #7cc576
 }
 .logo{
@@ -97,12 +71,44 @@ img {
 	width: 100px;
 	padding: 15px;
 	box-sizing: border-box;
-	background: 
+	background: ;
 }
 .h1{
 	text-align: center;
-	color: black;
+	color: 000000;
 }
+.desktop-nav {
+		display: block;
+}
+.mobile-nav {
+		display: none;
+}
+.ham {
+		display: none;
+}
+/*body*/
+.body {
+	background: ffffff;
+}
+.site-content {
+		float: left;
+		width: 60%;
+		box-sizing: border-box;
+}
+.site-sidebar {
+		float: right;
+		width: 40%;
+		box-sizing: border-box;
+}
+.image-gallery.img-slide {
+		width: 33%;
+		padding: 10px;
+		box-sizing: border-box;
+		float: center;
+}
+}
+
+/*
 .desktop-nav{
 	float: middle;
 	width: calc(100%-100px);
