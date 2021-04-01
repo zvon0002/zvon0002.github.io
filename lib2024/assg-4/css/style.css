@@ -63,15 +63,15 @@ img {
 	}
 
 	/*Header styles*/
-.header{
-	background: #7cc576
+.h1{
+	background: #7cc576;
 }
 .logo{
 	float: left;
 	width: 100px;
 	padding: 15px;
 	box-sizing: border-box;
-	background: ;
+	background: #7cc576;
 }
 .h1{
 	text-align: center;
