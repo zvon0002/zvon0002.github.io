@@ -56,28 +56,43 @@ table {
 img {
 	width:100%;
 }
-@media only screen and (min-width: 768px){
-	header, main, footer {
-		max-width: 1280px;
-		margin: 0 auto;
-	}
-
 	/*Header styles*/
-
+header {
+	background: #7cc576;
+}
 .logo{
 	float: left;
 	width: 100px;
 	padding: 15px;
 	box-sizing: border-box;
-	background: #7cc576;
 }
 .h1{
 	text-align: center;
 	color: 000000;
-	background: #7cc576;
+
+.desktop-nav{
+	float: middle;
+	width: calc(100%-100px);
+	display: none;
+	max-width: 960px;
+}
+.desktop-nav ul{
+	width: 100%;
+}
+.desktop-nav li{
+	box-sizing: border-box;
+	width: 25%;
+	float: middle;
+	background: #6dcff6;
+}
+.main-nav a{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
 }
 .desktop-nav {
-		display: block;
+		
 }
 .mobile-nav {
 		display: none;
@@ -105,27 +120,10 @@ img {
 		box-sizing: border-box;
 		float: center;
 }
-}
 
-/*
-.desktop-nav{
-	float: middle;
-	width: calc(100%-100px);
-	display: none;
-	max-width: 960px;
-}
-.desktop-nav ul{
-	width: 100%;
-}
-.desktop-nav li{
-	box-sizing: border-box;;
-	width: 25%;
-	float: middle;
-	background: #6dcff6;
-}
-.main-nav a{
-	display: block;
-	box-sizing: border-box;
-	width: 100%;
-	padding: 10px;
-}*/
+
+
+
+
+
+
