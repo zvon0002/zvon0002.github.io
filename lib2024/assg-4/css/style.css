@@ -46,11 +46,36 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/s*CSS clearfix*/
+/*CSS clearfix*/
 
 .clearfix:after {
 	content: "";
 	display: table;
 	clear: both;
 }
-img{width:100%;}
+img {
+	width:100%;
+}
+/*Header styles*/
+header{
+	background: #7cc576
+}
+.logo{
+	float: left;
+	width: 100px;
+	padding: 15px;
+	box-sizing: border-box;
+	background: 
+}
+.desktop-nav{
+	float: middle;
+	width: calc(100%-100px);
+	display: none;
+	max-width: 960px;
+}
+.desktop-nav ul{
+	width: 100%;
+}
+.desktop-nav li{
+
+}
