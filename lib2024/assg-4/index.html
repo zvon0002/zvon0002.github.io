@@ -16,7 +16,7 @@
 <body>
 <!--start of header-->
 
-<header id="site-header" class="w3-container">
+<header id="site-header" class="site-header">
 	<figure>
 		<img src="img/logo.png" alt="Image of kitten"> 
 	</figure>
@@ -43,8 +43,9 @@
 </header>
 
 <!--main section of body-->
-<main id="main">
-	<section id="main-section-1" class="main-section">
+<main class="main clearfix" id="main">
+<!--site content start-->
+	<section id="main-section-1" class="main-content">
 		<h2>Main Content Title</h2>
 		<article>
 			<p>
@@ -55,13 +56,13 @@
 			</p>
 		</article>
 	</section>
-<!--sidebar-->
+<!--main content end/sidebar start-->
 	<section>
+		<article>
 			<aside id="sidebar" class="main-section">
 				<div>
 					<img src="img/rosie(3).jpg" alt="rosie">
       			</div>
-		<article>
 	<h3>Title of the sidebar</h3>
 			<p>
 				mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet sed
@@ -70,21 +71,20 @@
 			</aside>
 	</section>
 <!--secondary section of body-->
-	<section id="images" class="main-section"> 
+	<section id="images" class="image gallery"> 
 		<article>
 			<h3>Secondary Content Title</h3>
-			<figure>
-				<img src="img/pexels-pixabay-104827(1).jpg" alt="image of kitten"> 
-				<figcaption>Image 1</figcaption>
-			</figure>
-			<figure>
-				<img src="img/pexels-anel-rossouw-2558605.png" alt="image of kitten"> 
-				<figcaption>Image 2</figcaption>
-			</figure>
-			<figure>
-				 <img src="img/pexels-pixabay-416160(1).jpg" alt="image of kitten"> 
-				<figcaption>Image 3</figcaption>
-			</figure>
+			<div class="image-gallery-container clearfix">
+				<div class="img-slide">
+					<img src="img/pexels-pixabay-104827(1).jpg" alt="image 1 of kitten"> 
+				</div>
+				<div class="img-slide">
+					<img src="img/pexels-anel-rossouw-2558605.png" alt="image 2 of kitten">
+				</div> 
+				<div class="img-slide">
+				 	<img src="img/pexels-pixabay-416160(1).jpg" alt="image of kitten"> 
+				</div>
+			</div>
 		</article>
 	</section>
 </main>
@@ -95,10 +95,10 @@
 		<p>
 		CopyRight 2017, All Rights Reserved
 		</p>
-	<!--logos with links for navigation to social media-->
-		<figure>
-			<img src="img/facebook.png" alt="facebook logo">
-		</figure>
+	<!--navigation links to social media-->
+		<p>
+			<i class="fa-facebook [&#xf09a;]"></i>
+		</p>
 		<figure>
 			<img src="img/youtube.png" alt="youtube logo">
 		</figure>
@@ -108,9 +108,10 @@
 		<nav id="sub-navigation" class="navigation">
 			<ul>
 				<li>
-				<span><a href="https://facebook.com" target="_blank"></a></span>
-				<span><a href="https://youtube.com" target="_blank"></a></span>
-				<span><a href="https://twitter.com" target="_blank"></a></span>
+					<a href="https://facebook.com" target="_blank"></a>
+
+					<a href="https://youtube.com" target="_blank"></a></span>
+					<a href="https://twitter.com" target="_blank"></a></span>
 				</li>
 			</ul>
 		</nav>
