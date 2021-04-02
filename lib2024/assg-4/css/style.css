@@ -76,7 +76,7 @@ table {
 	display: none;
 	max-width: 960px;
 }
-.main-nav clearfix{
+.main-nav{
 	width: 100%;
 }
 .desktop-nav li{
