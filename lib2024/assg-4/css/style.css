@@ -95,13 +95,17 @@ table {
 .body{
 	background: ffffff;
 }
-.main-clearfix{
+.main{
 		float: left;
 		background: #ffffff;
 		padding: 15px;
 		width: 60%;
 		box-sizing: border-box;
 }
+.section{
+	padding: 15px;
+	width: 60%;
+	
 .aside {
 		float: left;
 		background: #ffffff;
@@ -110,13 +114,15 @@ table {
 		box-sizing: border-box;
 }
 /*image needs colour?*/
-.image-gallery.img-slide {
+.image-gallery{
 		width: 33%;
 		padding: 10px;
 		box-sizing: border-box;
 		float:left;
 }
-
+.footer{
+	
+}
 
 
 
