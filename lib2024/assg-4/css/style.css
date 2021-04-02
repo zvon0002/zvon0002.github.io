@@ -126,6 +126,7 @@ table {
 	padding: 10px;
 	width: 960px;
 	background: #6dcff6;
+	box-sizing: border-box;
 }
 .navigation{
 	float: right;
@@ -135,7 +136,7 @@ table {
 }
 
 
-}
+
 
 
 
