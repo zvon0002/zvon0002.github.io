@@ -58,72 +58,84 @@ table {
 }
 	/*Header styles*/
 .header {
+	width: 100%;
+	padding: 15px;
 	background: #7cc576;
 }
 .logo{
 	float: left;
-	width: 100px;
 	padding: 15px;
+	width: 150px;
 	box-sizing: border-box;
 }
 .h1{
+	float: left;
 	text-align: center;
 	color: 000000;
-
-.desktop-nav{
-	float: middle;
-	width: calc(100%-100px);
-	display: none;
-	max-width: 960px;
 }
 .main-nav{
 	width: 100%;
 }
-.desktop-nav li{
-	box-sizing: border-box;
-	width: 25%;
+.main-nav li{
 	float: left;
+	padding: 15px;
+	width: 25%;
+	box-sizing: border-box;
 	background: #6dcff6;
 }
 .main-nav a{
 	display: block;
-	box-sizing: border-box;
-	width: 100%;
 	padding: 10px;
-
-/*body.....is .body useful?*/
+	width: 100%;
+	box-sizing: border-box;
+	
+}
 .body{
 	background: ffffff;
 }
 .main{
-		float: left;
-		background: #ffffff;
-		padding: 15px;
-		width: 60%;
-		box-sizing: border-box;
+	float: left;
+	padding: 15px;
+	width: 60%;
+	box-sizing: border-box;
 }
 .section{
 	padding: 15px;
 	width: 60%;
 	
 .aside {
-		float: left;
-		background: #ffffff;
-		padding: 15px;
-		width: 40%;
-		box-sizing: border-box;
+	float: left;
+	padding: 15px;
+	width: 40%;
+	box-sizing: border-box;
 }
 /*image needs colour?*/
 .image-gallery{
-		width: 33%;
-		padding: 10px;
-		box-sizing: border-box;
-		float:left;
+	float:left;
+	padding: 10px;
+	width: 33%;
+	box-sizing: border-box;
+}
+.image-gallery-container{
+
+}
+.img{
+
 }
 .footer{
-	
+	padding: 10px;
+	width: 960px;
+	box-sizing: border-box;
+}
+.navigation{
+	float: right;
+	padding: 10px;
+	width: 50px;
+	box-sizing: border-box;
 }
 
+
+}
 
 
 
