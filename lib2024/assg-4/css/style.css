@@ -125,7 +125,6 @@ table {
 .footer{
 	padding: 10px;
 	width: 960px;
-	box-sizing: border-box;
 	background: #6dcff6;
 }
 .navigation{
