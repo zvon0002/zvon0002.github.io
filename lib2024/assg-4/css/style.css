@@ -53,11 +53,11 @@ table {
 	display: table;
 	clear: both;
 }
-img {
+.img {
 	width:100%;
 }
 	/*Header styles*/
-header {
+.header {
 	background: #7cc576;
 }
 .logo{
@@ -76,13 +76,13 @@ header {
 	display: none;
 	max-width: 960px;
 }
-.desktop-nav ul{
+.main-nav clearfix{
 	width: 100%;
 }
 .desktop-nav li{
 	box-sizing: border-box;
 	width: 25%;
-	float: middle;
+	float: left;
 	background: #6dcff6;
 }
 .main-nav a{
@@ -90,35 +90,31 @@ header {
 	box-sizing: border-box;
 	width: 100%;
 	padding: 10px;
-}
-.desktop-nav {
-		
-}
-.mobile-nav {
-		display: none;
-}
-.ham {
-		display: none;
-}
-/*body*/
-.body {
+
+/*body.....is .body useful?*/
+.body{
 	background: ffffff;
 }
-.site-content {
+.main-clearfix{
 		float: left;
+		background: #ffffff;
+		padding: 15px;
 		width: 60%;
 		box-sizing: border-box;
 }
-.site-sidebar {
-		float: right;
+.aside {
+		float: left;
+		background: #ffffff;
+		padding: 15px;
 		width: 40%;
 		box-sizing: border-box;
 }
+/*image needs colour?*/
 .image-gallery.img-slide {
 		width: 33%;
 		padding: 10px;
 		box-sizing: border-box;
-		float: center;
+		float:left;
 }
 
 
