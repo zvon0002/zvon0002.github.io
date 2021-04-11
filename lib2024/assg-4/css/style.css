@@ -104,7 +104,7 @@ table {
 	width: 60%;
 	
 .aside {
-	float: left;
+	float: right;
 	padding: 15px;
 	width: 40%;
 	box-sizing: border-box;
@@ -125,11 +125,11 @@ table {
 .footer{
 	padding: 10px;
 	width: 960px;
-	background: #6dcff6;
+	background-color: #6dcff6;
 	box-sizing: border-box;
 }
 .navigation{
-	float: right;
+	float: left;
 	padding: 10px;
 	width: 50px;
 	box-sizing: border-box;
