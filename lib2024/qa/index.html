@@ -172,26 +172,33 @@
 				<p>
 					<strong>Ans: </strong>
 					@keyframes spin{
-					from{
-						transform: rotate(0deg);
+						from{transform: rotate(0deg);}
+						to{transform: rotate(360deg);}
 					}
-					to{
-						trasform: rotate(360deg);
-					}
-				}
 				</p>
 			</li>
 			<!-- Qus 15 -->
 			<li>
 				<p>
 					<strong>Qus: </strong>
-					Create a CSS animation block to rotate an elelment that has the following properties:
+					Create a CSS animation block to rotate an element that has the following properties:
 					-class "rotate-me"
 					-it rotates 5 times at intervals of 0.5s with "linear" transition using the animation keyframes "spin".
 				</p>
 				<p>
 					<strong>Ans: </strong>
-					animation: rotate-me 0.5s linear 5;
+					<!--animation code-->
+					@keyframes spin{
+						from{transform: rotate(0deg);}
+						to{transform: rotate(360deg);}
+					}
+					<!--element to apply animation to-->
+					div{
+						width: 100px;
+						height:100px;
+						background-colour: green;
+						animation: rotate-me 0.5s linear 5;
+					}
 				</p>
 			</li>
 			<!-- Qus 16 -->
@@ -215,7 +222,7 @@
 				</p>
 				<p>
 					<strong>Ans: </strong>
-						$("#fade-me").delay(300).fadeOut;
+						$("#fade-me").delay(300).fadeOut();
 				</p>
 			</li>
 			<!-- Qus 18 -->
