@@ -153,10 +153,13 @@
 				</p>
 				<p>
 					<strong>Ans: </strong>
-					h1{
+					.loader{
 					position: absolute;
+					left: 50%;
+					top: 50%;
   					width: 200px;
   					height: 200px;
+  					margin: -100px 0 0 -100px;
 				}
 				</p>
 			</li>
@@ -199,18 +202,9 @@
 				</p>
 				<p>
 					<strong>Ans: </strong>
-					<!DOCTYPE html>
-					<html>
-					<head>
-						<title></title>
-						<script type="text/javascript">
-							alert("I love Javascript");
-						</script>
-					</head>
-					<body>
-					
-					</body>
-					</html>
+							if(indicatorText.innerHTML.includes(elementId)) {
+							 	alert(elementId+"I love Javascript");
+						 	}
 				</p>
 			</li>
 			<!-- Qus 17 -->
@@ -221,10 +215,7 @@
 				</p>
 				<p>
 					<strong>Ans: </strong>
-					$("button").click(function(){
-						$("#fade-me").fadeOut(300);
-					});
-					syntax=$(selector).fadeOut(speed,callback);
+						$("#fade-me").delay(300).fadeOut;
 				</p>
 			</li>
 			<!-- Qus 18 -->
